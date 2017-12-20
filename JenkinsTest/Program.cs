@@ -10,6 +10,12 @@ namespace JenkinsTest
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(GetOutput());
+        }
+
+        public static string GetOutput()
+        {
+            return "Hello World";
         }
     }
 }
